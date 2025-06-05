@@ -54,7 +54,7 @@ if user_prompt:
                     # "HTTP-Referer": "<YOUR_SITE_URL>",
                     # "X-Title": "<YOUR_SITE_NAME>",
                 },
-                model="deepseek/deepseek-r1:free", # Or any other model you prefer on OpenRouter
+                model="deepseek/deepseek-r1-0528:free", # Or any other model you prefer on OpenRouter
                 messages=[
                     {"role": m["role"], "content": m["content"]}
                     for m in st.session_state.messages
