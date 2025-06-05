@@ -90,3 +90,6 @@ with st.sidebar:
             {"role": "assistant", "content": "Hai! Silahkan ketik pesanmu di sini!"}
         ]
         st.rerun()
+
+    st.markdown("---")
+    st.markdown("Dibuat oleh Mohammad Aris Darmawan")
